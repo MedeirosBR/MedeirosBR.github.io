@@ -1,0 +1,50 @@
+nav{
+color: rgb(14, 1, 194);
+font-size: 50px;
+background-color: white;
+
+}
+body{
+background-color: gold;
+
+}
+p{
+color: rgba(0, 0, 255, 0.507);
+
+}
+
+main>a{
+
+    font-size: 100px;
+    justify-content: center;
+    margin: 50px;
+
+}
+ 
+@media ( max-width:1000px){
+    body{
+        background-color: blueviolet;
+        
+    }
+    img{
+        width: 600px;
+    }
+    main>a{
+        font-size: 60px;
+    
+    }
+}
+@media(max-width:700px){
+    body{
+        background-color: brown;
+    }
+    img{
+        width: 400px;
+    }
+    main>a{
+        font-size: 40px;
+    display: flex;
+    }
+    
+}
+

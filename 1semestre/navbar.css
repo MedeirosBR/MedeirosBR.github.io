@@ -1,0 +1,61 @@
+body{
+    background-color: rgba(0, 89, 255, 0.705);
+   margin: 0; 
+
+}
+nav{
+   background-color: yellow;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+ 
+}
+.Super-Homens{
+   height: 110px;
+
+
+}
+
+.Super-Homens > img{
+   height: 150px;
+}
+
+input{
+   border-color: rgba(0, 89, 255, 0.705);
+   border-radius: 20px;
+   height: 30px;
+}
+.links{
+   display: flex;
+   gap: 70px ;
+   
+}
+
+.textos{
+   margin: 15px ; 
+   border: solid red; 
+   font-size: larger;h1
+      
+}
+.dropdown{
+   background-color: rgba(0, 89, 255, 0.705);
+   padding: 10px ;
+   border: solid black;
+   
+   > div{
+      background-color: orange;
+      position: absolute;
+      flex-direction: column;
+      display: none;
+   }
+
+}
+.dropdown:hover > div{
+   display: flex;
+} 
+
+h1{
+   text-align: center;
+}

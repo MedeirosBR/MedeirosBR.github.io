@@ -1,0 +1,43 @@
+a{
+    border: 2px solid red;  
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-decoration: none;
+    font-family: Candara;
+
+}
+.thumb{
+    width: 250px;
+    height: 120px;
+    background-color:aqua ;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+.tempo{
+    margin: 5px;
+    font-family: arial;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 2px;
+}
+.titulo{
+    background-color: gray;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo > label{
+    background-color: aquamarine;
+    margin: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.views{
+    background-color: gray;
+    width: 238px;
+    padding: 6px;
+    font-size: 12px;
+}
