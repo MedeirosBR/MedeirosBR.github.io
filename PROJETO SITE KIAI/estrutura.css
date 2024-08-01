@@ -1,0 +1,62 @@
+body{
+   
+   margin: 0; 
+
+}
+nav{
+   background-color:rgb(206, 108, 28);
+   height: 125px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+ 
+}
+.logokiai{
+   height: 100px;
+
+
+}
+
+.logokiai > img{
+   height: 100px;
+}
+
+.nomeaolado{
+    font-size: small;
+}
+
+input{
+   border-color: white;
+   border-radius: 20px;
+   height: 30px;
+}
+.links{
+   display: flex;
+   gap: 70px ;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+.dropdown{
+   background-color:white;
+   border: solid black;
+   border-radius: 5px;
+   font-size:x-small;
+
+   
+   > div{
+      background-color: white;
+      position: absolute;
+      flex-direction: column;
+      display: none;
+      font-size: medium;
+   }
+
+}
+.dropdown:hover > div{
+   display: flex;
+   border: solid black;
+   
+} 
