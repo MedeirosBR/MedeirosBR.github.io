@@ -27,15 +27,16 @@ NOME: João Pedro Fraga Medeiros
 
 GITHUB: 
 
-NOME DO SITE: Memespédia
+NOME DO SITE: KIAI - Associação Canoese de Judô
 
-DESCRIÇÃO DO SITE: Sera um site informativo sobre os memes bresileiros, 
-tendo explicação sobre eles, como data e motivo da sua existencia.
+DESCRIÇÃO DO SITE: Sera um site informativo sobre a kiai (Clube de judô que participo)
 
 PÁGINAS:
 
-index.html	Página inicial / Memes que estão em alta
-?.html		Página 2023
-?.html		Pagina 2024
+index.html	Pagina inicial com ultimas noticias e informações basicas
+?.html		  Quem Somos
+?.html      Notícias
+?.html		  Atletas
 
 TEXTCRAFT
+REFERENCIA DO SITE ANTIGO => https://kiaicanoas.blogspot.com/ 
