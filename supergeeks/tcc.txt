@@ -33,10 +33,11 @@ DESCRIÇÃO DO SITE: Sera um site informativo sobre a kiai (Clube de judô que p
 
 PÁGINAS:
 
-index.html	Pagina inicial com ultimas noticias e informações basicas
-?.html		  Quem Somos
-?.html      Notícias
-?.html		  Atletas
+index.html	Quem somos e cards com ultimas noticias
+?.html		  Notícias
+?.html      Atletas
+?.html		  Contatos (insta, whats e facebook)
+
 
 TEXTCRAFT
 REFERENCIA DO SITE ANTIGO => https://kiaicanoas.blogspot.com/ 
