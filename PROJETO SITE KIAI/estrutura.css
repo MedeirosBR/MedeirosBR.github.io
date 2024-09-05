@@ -10,7 +10,7 @@ nav{
    align-items: center;
    justify-content: space-between;
    padding: 0 50px;
- 
+   border: solid black 2px;
 }
 
 .logokiai > img{
@@ -41,9 +41,11 @@ input{
 
 .dropdown{
    background-color:white;
-   border: solid black;
-   border-radius: 10px;
+   color: black;
+   border: 1.5px solid black;
    font-size:x-small;
+   border-radius: 5px;
+   padding: 7px;
 
    > div{
       background-color: white;
@@ -51,9 +53,10 @@ input{
       flex-direction: column;
       display: none;
       font-size: medium;
-      border-radius: 10px;
-      border: solid black;
-      padding: 10px;
+      border-radius: 5px;
+      border: 1.5px solid black;
+      padding: 7px;
+   
       
    }
 
@@ -72,10 +75,15 @@ input{
    align-items: center;
 }
 
+main{
+   border: 1px solid blue;
+   padding: 30px 120px;
+}
+
 .quemsomos{
-   border: solid red 2px;
+   
    width: 40%;
-   padding: 40px;
+   border: 1px ;
    
 }
 .quemsomos > h1{
