@@ -77,16 +77,22 @@ input{
 
 main{
    border: 1px solid blue;
-   padding: 30px 120px;
+   padding: 30px 100px;
+   display: flex;
+   gap: 100px;
 }
 
-.quemsomos{
-   
-   width: 40%;
-   border: 1px ;
-   
+.textos{
+   border: 1px solid green;
+   width: 50%;
 }
-.quemsomos > h1{
+
+.textos > h1{
    justify-content: center;
    text-align: center;
+}
+
+.noticias{
+   border: 1px solid red;
+   width: 50%;
 }
