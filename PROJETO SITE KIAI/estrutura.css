@@ -10,7 +10,10 @@ nav{
    align-items: center;
    justify-content: space-between;
    padding: 0 50px;
-   border: solid black 2px;
+   border-bottom-left-radius: 15%;
+   border-bottom-right-radius: 15%;
+   border: 2px solid black;
+   font-size: larger;
 }
 
 .logokiai > img{
@@ -93,6 +96,33 @@ main{
 }
 
 .noticias{
-   border: 1px solid red;
    width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.noticias > div{
+   display: flex;
+   border: 2px solid gray;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.noticias > div > label{
+   flex-grow: 1;
+   text-align: center;
+   padding: 0px 15px;
+   
+}
+
+.noticias > div > img{
+   height: 250px;
+   border-radius: 7px;
+}
+
+.noticias-footer{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 85px;
 }
