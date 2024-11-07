@@ -49,6 +49,8 @@ input{
    font-size:x-small;
    border-radius: 5px;
    padding: 7px;
+   display: flex;
+   justify-content: center;
 
    > div{
       background-color: white;
@@ -59,6 +61,18 @@ input{
       border-radius: 5px;
       border: 1.5px solid black;
       padding: 7px;
+      margin-top: 45px;
+
+      > a{
+         color: black;
+         text-decoration: none;
+
+         > i{
+            color: rgb(206, 108, 28);
+      
+
+         }
+      }
    
       
    }
@@ -100,6 +114,10 @@ main{
    gap: 40px;
 }
 
+.noticias > h1{
+   text-align: center;
+}
+
 .noticias > div{
    display: flex;
    border: 2px solid gray;
@@ -123,4 +141,9 @@ main{
    display: flex;
    justify-content: space-between;
    margin-top: 85px;
+}
+
+.transmissao > a{
+   color: black;
+   text-decoration: none;
 }
